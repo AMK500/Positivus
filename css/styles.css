@@ -829,6 +829,9 @@ header .d-flex .nav2 ul .quote {
 
 .accordion-button::after {
   background-image: url(../img/process/Plus+icon.svg);
+  width: 58px;
+  height: 58px;
+  background-size: 100% 100%;
 }
 
 .accordion-button:not(.collapsed)::after {
