@@ -834,6 +834,11 @@ header .d-flex .nav2 ul .quote {
   background-size: 100% 100%;
 }
 
+.accordion-button:focus {
+  box-shadow: 1px 1px 2px 0rem rgb(0 0 0);
+}
+
+
 .accordion-button:not(.collapsed)::after {
   background-image: url(../img/process/Plus-icon.svg);
 }
@@ -889,6 +894,13 @@ header .d-flex .nav2 ul .quote {
 }
 
 @media (max-width: 520px) {
+
+  .accordion-button::after {
+    background-image: url(../img/process/Plus+icon.svg);
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+  }
 
   .accordion-button span {
     color: var(--Black);
