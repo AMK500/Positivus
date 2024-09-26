@@ -766,9 +766,9 @@ header .d-flex .nav2 ul .quote {
 
 
 
-/* _______________________F I V E________________________ */
+/* _______________________process________________________ */
 
-/* #region five */
+/* #region process */
 
 .process {
   margin-bottom: 140px;
@@ -945,28 +945,180 @@ header .d-flex .nav2 ul .quote {
 
 }
 
-/* #endregion five */
+/* #endregion process */
 
 
 
 
-/* ________________________S I X_________________________ */
+/* ________________________team_________________________ */
 
-/* #region SIX */
+/* #region team */
 
+.team {
+  margin-bottom: 100px;
+}
 
+.team .text-headeng {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
 
+.team .text-headeng h2 {                 
+  display: flex;
+  padding: 0px 7px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 7px;
+  background: var(--Green);
+}
 
+.team .text-headeng h2 span {
+  color: var(--Black);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
+.team .text-headeng p {
+  max-width: 473px;
+  color: var(--Black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
-@media (max-width: 965px) {
+.team .d-grid {
+  grid-template-columns: repeat(auto-fill, minmax(auto, 387px));
+  gap: 29px;
+  justify-content: center;
+  align-content: center;
+}
 
+.team .d-grid .item {
+  display: flex;
+  max-width: 387px;
+  min-height: 354px;
+  padding: 40px 35px;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 45px;
+  border: 1px solid var(--Dark);
+  background: var(--white);
+  box-shadow: 0px 5px 0px 0px var(--Dark);
+}
 
+.team .d-grid .item hr {
+  max-width: 317px;
+  height: 1px;
+  background: var(--Black);
+  opacity: 1;
+  margin: 28px 0;
+}
+
+.team .d-grid .item .top {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.team .d-grid .item .top a {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.team .d-grid .item .top p .top {
+  color: var(--Black);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.team .d-grid .item .top p .bottom {
+  color: var(--Black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.team .d-grid .item .bottom p {
+  color: var(--Black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link-team {
+  min-width: 100%;
+}
+
+.link-team a {
+  margin-top: 40px;
+  margin-left: auto;
+  display: flex;
+  width: 269px;
+  padding: 20px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 14px;
+  background: var(--Dark);
+  border: 1px solid var(--Dark);
+  color: var(--white);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  transition: all 0.3s;
+}
+
+.link-team a:hover {
+  background: transparent;
+  color: var(--Dark);
+}
+
+@media (max-width: 1255px) {
+
+  .link-team a {
+    margin-right: auto;
+  }
+
+}
+
+@media (max-width: 635px) {
+
+  .team .text-headeng {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 335px) {
+
+  .team .d-grid .item .top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team .d-grid .item .top p,
+  .team .d-grid .item .bottom p {
+    text-align: center;
+  }
 
 }
 
 
-/* #endregion SIX */
+/* #endregion team */
 
 
 
